@@ -19,6 +19,7 @@
 					secondMax = Math.max(temp, secondMax);
 				}
 			}
+			if(max === secondMax) return -Infinity;
 			return Math.min(max, secondMax);
 		}
 
